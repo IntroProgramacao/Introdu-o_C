@@ -1,0 +1,33 @@
+REVISÃO DE CONCEITOS
+Responda com o máximo de sinceridade (caso não saiba é só não responder)
+
+1 Lógica de programação:
+a) Defina um conectivo e descreva (abreviadamente) sua utilidade:
+
+b) Defina uma condicional e descreva (abreviadamente) sua utilidade:
+
+c) Defina um laço de repetição descreva (abreviadamente) sua utilidade:
+
+d) Avalie o seguinte caso e descreva a solução:
+	Uma determinada função de seu programa deve retorna (true) caso um número seja positivo ou (false) caso negativo:
+	
+2 Conhecimentos em C:
+a) Dê a diferença, de forma abreviada, entre um laço while() e do{}while():
+	a.1) Descreva a sintaxe:
+	
+b) Descreva a diferença conceitual entre uma função por parâmetro e por referência:
+
+c) Porque main retorna 0? Quando deve retornar um valor maior que 0?
+
+d) Descreva pelo menos duas funções da bib <stdio.h> e suas sintaxes:
+
+e) Declare um vetor de 5 posições e o preencha com quaisquer dados que lhe surgir:
+
+3 Conhecimentos em funções:
+a) Defina os tipos de funções e suas utilidades
+
+b) Declare de forma conceitual (em texto), uma função por parâmetro e uma pro refêrencia
+
+c) Defina o que é um escopo:
+
+

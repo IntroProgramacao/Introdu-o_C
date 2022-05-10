@@ -1,0 +1,61 @@
+	//criptografando
+	for (int i = 0; i < tamin; i++)
+	{
+		int j = 0;
+		bool sair = false;
+		while (j < tam && sair == false)
+		{
+			//rotaciona
+			if (crip[i] >= 0 && crip[i] <= 25 )
+			{
+				if (crip[i] + k[i] <= 25)
+				{
+					crip[i] = crip[i] + k[j];
+					sair = true;
+					j = 0;
+				}else
+				{
+					int com = crip[i] + k[j];
+					crip[i] = 0;
+					crip[i] = crip[i] + (com - 26);
+					sair = true;
+					j = 0;
+				}
+			}
+		}
+	}
+	
+	//saida
+	string out = in;
+	
+	for (int i = 0; i < tamin; i++)
+	{
+		int j = 0;
+		bool sair = false;
+		while (j <= 25 || sair == false)
+		{
+			if (crip[i] >= 0 && crip[i] <= 25 )
+			{
+				if (crip[i] == j)
+				{
+					out[i] = alf[j];
+					sair = true;
+					j = 0;
+				}else
+				{
+					j++;
+				}
+			}else
+			{
+				out[i] = crip[i];
+				sair = true;
+				j = 0;
+			}
+			
+		}
+	}
+	
+	printf("%s", out);
+	
+		
+		
