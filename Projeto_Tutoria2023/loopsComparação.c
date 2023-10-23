@@ -18,11 +18,10 @@ int main(void)
         i++;
     }
 
-    //zera o contador
-    i = 0;
-
     do
     {
+        //zera o contador antes de fazer a verificação
+        i = 0;
         scanf("%d", a[i]);
         i++;
     } while (i>=1 && i < 10);
